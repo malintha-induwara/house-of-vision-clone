@@ -2,6 +2,7 @@
 import WelcomeSection from '@/components/WelcomeSection.vue'
 import WhoWeAre from '@/components/WhoWeAre.vue'
 import OurServices from '@/components/OurServices.vue'
+import OurLenses from '@/components/OurLenses.vue'
 </script>
 
 <template>
@@ -9,7 +10,7 @@ import OurServices from '@/components/OurServices.vue'
     <WelcomeSection />
     <WhoWeAre />
     <OurServices/>
-
+    <OurLenses/>
   </main>
 </template>
 
