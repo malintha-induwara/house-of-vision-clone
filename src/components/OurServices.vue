@@ -1,5 +1,5 @@
 <script>
-import Swiper from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/vue';
 import { Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -10,6 +10,10 @@ import VisualTest from '@/assets/images/visual.png'
 
 
 export default {
+    components: {
+        Swiper,
+        SwiperSlide,
+    },
     data() {
         return {
             VisionList: [
@@ -44,34 +48,11 @@ export default {
             ]
         }
     },
-
-    mounted() {
-        this.initSwiper();
-    },
-
-    methods: {
-        initSwiper() {
-            new Swiper('.swiper', {
-                modules: [Pagination],
-                slidesPerView: 1,
-                spaceBetween: 15,
-                pagination: {
-                    el: '.swiper-pagination',
-                    clickable: true,
-                },
-                breakpoints: {
-                    340: {
-                        slidesPerView: 2,
-                    },
-
-                    640: {
-                        slidesPerView: 3,
-                    },
-                },
-            });
+    setup() {
+        return {
+            modules: [Pagination],
         }
     }
-
 }
 </script>
 
@@ -99,22 +80,28 @@ export default {
             </div>
         </div>
         <div class="xl:hidden">
-            <div class="swiper max-w-[90%] lg:max-w-[80%]">
-                <div class="swiper-wrapper">
-                    <div v-for="vision in VisionList" :key="vision.title" class="swiper-slide">
-                        <div class="flex flex-col px-2" >
-                            <img :src="vision.image" :alt="vision.alt">
-                            <h4 class="text-blue-700 text-2xl my-2 font-bold">
-                                {{ vision.title }}
-                            </h4>
-                            <p class=" text-gray-700 mb-10">
-                                {{ vision.paragaph }}
-                            </p>
-                        </div>
+            <Swiper class="max-w-[90%] lg:max-w-[80%]" :pagination="true" :modules="modules" :slides-per-view="1"
+                :space-between="15" :breakpoints="{
+                    340: {
+                        slidesPerView: 2,
+                    },
+
+                    640: {
+                        slidesPerView: 3,
+                    },
+                }">
+                <SwiperSlide v-for="vision in VisionList" :key="vision.title">
+                    <div class="flex flex-col px-2">
+                        <img :src="vision.image" :alt="vision.alt">
+                        <h4 class="text-blue-700 text-2xl my-2 font-bold">
+                            {{ vision.title }}
+                        </h4>
+                        <p class=" text-gray-700 mb-10">
+                            {{ vision.paragaph }}
+                        </p>
                     </div>
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
+                </SwiperSlide>
+            </Swiper>
         </div>
     </div>
 </template>
