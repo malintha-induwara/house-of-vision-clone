@@ -3,6 +3,8 @@ import WelcomeSection from '@/components/WelcomeSection.vue'
 import WhoWeAre from '@/components/WhoWeAre.vue'
 import OurServices from '@/components/OurServices.vue'
 import OurLenses from '@/components/OurLenses.vue'
+import MarqueeList from './components/MarqueeList.vue'
+
 </script>
 
 <template>
@@ -11,6 +13,7 @@ import OurLenses from '@/components/OurLenses.vue'
     <WhoWeAre />
     <OurServices/>
     <OurLenses/>
+    <MarqueeList/>
   </main>
 </template>
 

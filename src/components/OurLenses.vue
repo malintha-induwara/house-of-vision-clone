@@ -3,6 +3,7 @@
 import {ArrowUpRight} from "lucide-vue-next"
 
 export default{
+    name:'OurLenses',
     components:{
         ArrowUpRight
     }
@@ -12,7 +13,7 @@ export default{
 
 <template>
     <div class="2xl:h-screen p-4 2xl:py-24 xl:pb-20 xl:py-10 2xl:px-40 xl:px-10">
-        <div class="bg-ourLenses flex flex-col justify-center xl:h-[640px] rounded-3xl bg-cover bg-center">
+        <div class="bg-ourLenses  flex flex-col justify-center xl:h-[640px] xl:rounded-3xl bg-cover bg-center">
             <div class="flex flex-col items-end">
                 <div class="md:w-1/2">
                     <h2
@@ -69,4 +70,14 @@ export default{
 .bg-ourLenses {
     background-image: url(/src/assets/images/lenses.png);
 }
+
+.bg-ourLenses-tab{
+    background-image: url(/src/assets/images/lenses-mobile.png);
+}
+
+.bg-ourLenses-mobile{
+    background-image: url(/src/assets/images/lenses-mobile2.png)
+}
+
+
 </style>

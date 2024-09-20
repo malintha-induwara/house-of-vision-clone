@@ -10,6 +10,7 @@ import VisualTest from '@/assets/images/visual.png'
 
 
 export default {
+    name:'OurServices',
     components: {
         Swiper,
         SwiperSlide,
