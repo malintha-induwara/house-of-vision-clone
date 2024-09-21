@@ -4,6 +4,7 @@ import WhoWeAre from '@/components/WhoWeAre.vue'
 import OurServices from '@/components/OurServices.vue'
 import OurLenses from '@/components/OurLenses.vue'
 import MarqueeList from './components/MarqueeList.vue'
+import FooterSection from './components/FooterSection.vue'
 </script>
 
 <template>
@@ -13,6 +14,7 @@ import MarqueeList from './components/MarqueeList.vue'
     <OurServices />
     <OurLenses />
     <MarqueeList />
+    <FooterSection/>
   </main>
 </template>
 
