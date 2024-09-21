@@ -4,16 +4,15 @@ import WhoWeAre from '@/components/WhoWeAre.vue'
 import OurServices from '@/components/OurServices.vue'
 import OurLenses from '@/components/OurLenses.vue'
 import MarqueeList from './components/MarqueeList.vue'
-
 </script>
 
 <template>
   <main>
     <WelcomeSection />
     <WhoWeAre />
-    <OurServices/>
-    <OurLenses/>
-    <MarqueeList/>
+    <OurServices />
+    <OurLenses />
+    <MarqueeList />
   </main>
 </template>
 
