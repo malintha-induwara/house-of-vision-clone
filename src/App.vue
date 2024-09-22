@@ -14,7 +14,7 @@ import FooterSection from './components/FooterSection.vue'
     <OurServices />
     <OurLenses />
     <MarqueeList />
-    <FooterSection/>
+    <FooterSection />
   </main>
 </template>
 
