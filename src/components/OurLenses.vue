@@ -12,9 +12,9 @@ export default {
 <template>
   <div class="xl:p-4 xl:px-10 xl:py-10 xl:pb-20 2xl:h-screen 2xl:px-40 2xl:py-24">
     <div
-      class="flex flex-col justify-center  bg-[url('/src/assets/images/lenses-mobile2.png')] bg-cover bg-center md:bg-[url('/src/assets/images/lenses-mobile.png')] xl:h-[640px] xl:rounded-3xl xl:bg-[url('/src/assets/images/lenses.png')]"
+      class="flex flex-col justify-center bg-[url('/src/assets/images/lenses-mobile2.png')] bg-cover bg-center md:bg-[url('/src/assets/images/lenses-mobile.png')] xl:h-[640px] xl:rounded-3xl xl:bg-[url('/src/assets/images/lenses.png')]"
     >
-      <div class="flex flex-col pb-10 pl-10 max-xl:bg-black/30 pt-10 xl:items-end xl:p-0">
+      <div class="flex flex-col pb-10 pl-10 pt-10 max-xl:bg-black/30 xl:items-end xl:p-0">
         <div class="md:w-3/4 xl:w-1/2">
           <h2
             class="w-fit rounded-2xl bg-white/20 px-10 py-1 text-sm font-semibold text-white max-sm:text-sm md:text-2xl xl:text-xl"
@@ -27,16 +27,12 @@ export default {
           </p>
 
           <div class="flex flex-wrap gap-2 pt-6">
-            <p class="rounded-2xl bg-white/20 px-5 py-1 text-white">
-              Verifocal Lenses
-            </p>
-            <p class=" rounded-2xl bg-white/20 px-5 py-1 text-white">Bluecut Lenses</p>
-            <p class="rounded-2xl bg-white/20 px-5 py-1 text-white">
-              Photochromic Lenses
-            </p>
+            <p class="rounded-2xl bg-white/20 px-5 py-1 text-white">Verifocal Lenses</p>
+            <p class="rounded-2xl bg-white/20 px-5 py-1 text-white">Bluecut Lenses</p>
+            <p class="rounded-2xl bg-white/20 px-5 py-1 text-white">Photochromic Lenses</p>
           </div>
 
-          <div class="mt-6 flex md:justify-between xl:justify-normal  ">
+          <div class="mt-6 flex md:justify-between xl:justify-normal">
             <div>
               <img
                 class="max-sm:h-auto max-sm:w-[35vw]"
