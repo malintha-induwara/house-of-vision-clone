@@ -1,35 +1,47 @@
-# vision
+# House of Vision Clone
 
-This template should help get you started developing with Vue 3 in Vite.
+A clone of **House of Vision** website. This project is developed with Vue.js and aims to replicate the design and functionality of the original website.
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Built with Vue 3 and Vite for high performance
+- Fully responsive and pixel-perfect design
+- Component-based architecture for easy scalability
 
-## Customize configuration
+## Getting Started
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+### Prerequisites
 
-## Project Setup
+- Node.js (v14.0 or higher recommended)
+- npm or yarn package manager
 
-```sh
-npm install
-```
+### Installation
 
-### Compile and Hot-Reload for Development
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/malintha-induwara/house-of-vision-clone.git
+   cd house-of-vision-clone
+   ```
 
-```sh
-npm run dev
-```
+2. Install the dependencies:
+   ```sh
+   npm install
+   ```
 
-### Compile and Minify for Production
+3. Run the development server:
+   ```sh
+   npm run dev
+   ```
 
-```sh
-npm run build
-```
+4. Build for production:
+   ```sh
+   npm run build
+   ```
 
-### Lint with [ESLint](https://eslint.org/)
+## Technology Stack
 
-```sh
-npm run lint
-```
+[![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)](https://vuejs.org/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+````
