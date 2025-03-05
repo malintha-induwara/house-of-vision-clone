@@ -1,8 +1,8 @@
 {
   "name": "vision",
   "version": "0.0.0",
-  "private": true,
   "type": "module",
+  "homepage":"https://malintha-induwara.github.io/house-of-vision-clone",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,6 +11,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "lucide-vue-next": "^0.437.0",
     "swiper": "^11.1.14",
     "vue": "^3.4.29"

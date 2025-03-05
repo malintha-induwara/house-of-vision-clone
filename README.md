@@ -18,17 +18,20 @@ A clone of **House of Vision** website. This project is developed with Vue.js an
 ### Installation
 
 1. Clone the repository:
+
    ```sh
    git clone https://github.com/malintha-induwara/house-of-vision-clone.git
    cd house-of-vision-clone
    ```
 
 2. Install the dependencies:
+
    ```sh
    npm install
    ```
 
 3. Run the development server:
+
    ```sh
    npm run dev
    ```
@@ -43,5 +46,5 @@ A clone of **House of Vision** website. This project is developed with Vue.js an
 [![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)](https://vuejs.org/)
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-````
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+
